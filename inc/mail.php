@@ -11,7 +11,7 @@
 		$mail->Password = "TUPASSWORD";
 		$mail->Host     = "TU HOST";
 		$mail->Mailer   = "smtp";
-		$mail->SetFrom("no-reply@tudominio", "Contacto FROM DGARCIA");
+		$mail->SetFrom("antauri285@gmail.co", "Contacto FROM DGARCIA");
   
 		$mail->AddAddress("antauri285@gmail.com");
 		$mensaje   = 'Nombre: '.$_POST['nombre'].'<br>'.
