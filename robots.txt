@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /inc/
+Sitemap: http://www.dgarcia.mx/sitemap.xml

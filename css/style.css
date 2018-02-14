@@ -1,0 +1,181 @@
+/**
+ * Created By: Danny García;
+ * Email: contacto@dgarcia.mx;
+ * Website: www.dgarcia.mx;
+ * { item_description }
+ */
+
+/*** GENERALES ***/
+body{font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;background-image: url('../images/main_bg.png');
+background-color: #E7E7E7;}
+h1,h2,h3,h4,h5{font-family: 'Quicksand', sans-serif;}
+.space{margin-top: 4em;}
+.text-center{text-align: center;}
+.text-white{color:#FFF;}
+.top-title{background-image: url('../images/sp_main_bg.png');background-size: cover;background-color: #2CC990;padding: 15px;
+border-top-left-radius: 15px;border-top-right-radius: 15px;}
+.main-text{font-size: 1.2em;}
+.center{margin: 0 auto;}
+.section-title{font-size: 3em;font-weight: 600;}
+.contain{background-color: #FFFFFF;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;}
+.padding-lat{padding: 0px 30px;}
+
+/*** HEADER ***/
+header{padding: 10px;}
+.my-name{font-weight: 600;font-size: 1.6em;}
+.my-name-mobile{font-weight: 600;font-size: 1.3em;}
+.my-name span{color:#2CC990;}
+.nav{margin-top: 10px;}
+.nav li a {color: #49515d;font-size: 1.2em;font-weight: 600;}
+.nav>li>a:focus, .nav>li>a:hover, .active {text-decoration: none;background-color: transparent !important;border-bottom: 2px solid #2CC990;}
+
+#about, #experience, #services, #skills {background: #FFFFFF;border-radius: 15px;
+	-webkit-border-radius: 15px;-moz-border-radius: 15px;-ms-border-radius: 15px;-o-border-radius: 15px;}
+/*** ABOUT **/
+.profile-img{margin: 0 auto;max-width: 280px;position: absolute;top: 30px;left: 20%;}
+.name-title{font-size: 4em;font-weight: 600;}
+.social-media {text-align: center;}
+ul.social-icons {margin-left: -40px;}
+.social-icons li {vertical-align: top;display: inline;height: 100px;margin:4px;}
+.social-icons a {color:#FFFFFF;text-decoration: none;}
+.social-icon .social {-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;
+    transition: .5s;font-size: 20px;padding: 8px 2px;}
+.social-icons a:hover {color:#F3882E;}
+.btn-cv {margin: 20px 30%;}
+
+/** EXPERIENCE **/
+#timeline div p{margin: 10px;}
+.icon-service{max-width: 40%;margin: 0 auto;}
+.services{margin-top: 10px;}
+.cliente{padding: 15px;}
+
+/*** SERVICES ***/
+
+/*** SKILLS ***/
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+/*** CONTACT ***/
+.space-15{margin-top: 15px;}
+.input-group .icon-addon .form-control {border-radius: 0;}
+.icon-addon {position: relative;color: #555;display: block;}
+
+.icon-addon:after,
+.icon-addon:before {display: table;content: " ";}
+.icon-addon:after {clear: both;}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {position: absolute;z-index: 2;left: 10px;font-size: 14px;
+    width: 20px;margin-left: -2.5px;text-align: center;padding: 10px 0;top: 1px}
+.icon-addon.addon-lg .form-control {line-height: 1.33;height: 46px;font-size: 1.2em;padding: 10px 16px 10px 40px;}
+.icon-addon.addon-sm .form-control {height: 30px;padding: 5px 10px 5px 28px;font-size: 12px;line-height: 1.5;}
+.form-control{font-size: 1.2em;}
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {font-size: 18px;margin-left: 0;left: 11px;top: 4px;}
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {padding-left: 30px;float: left;font-weight: normal;}
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {margin-left: 0;font-size: 12px;left: 5px;top: -1px}
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {color: #2CC990;}
+
+.menu-mobile{background-color: #2cc990;margin-bottom: 10px;padding: 5px;}
+.btn-menu {margin-top: 10px;}
+.paradeiser{background-color: #2cc990;}
+.paradeiser a{color: #FFF;}
+.paradeiser .paradeiser_dropdown.active, .paradeiser .paradeiser_dropdown:hover, .paradeiser a.active, .paradeiser a:hover {
+    background: #1d7a58;
+}
+body {
+    margin-top: 0px;
+}
+
+@media (min-width: 1200px){
+  .container {width: 1000px;}
+}
+
+@media (max-width: 950px){
+  .text-about{padding: 0px 10px;}
+  .profile-img {margin: 0 auto;max-width: 280px;position: relative;top: 30px;left: 0;}
+  .name-title{font-size: 2.4em;font-weight: 600;}
+  .space{margin-top: 2.5em;}
+  #mm-page{margin-top: 4em;}
+  .container{padding-bottom: 3em;}
+  body {
+    margin-top: 60px;
+}
+}
